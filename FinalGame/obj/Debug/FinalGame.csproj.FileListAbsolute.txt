@@ -1,0 +1,9 @@
+c:\users\william.montero\documents\visual studio 2015\Projects\FinalGame\FinalGame\bin\Debug\FinalGame.exe.config
+c:\users\william.montero\documents\visual studio 2015\Projects\FinalGame\FinalGame\bin\Debug\FinalGame.exe
+c:\users\william.montero\documents\visual studio 2015\Projects\FinalGame\FinalGame\bin\Debug\FinalGame.pdb
+c:\users\william.montero\documents\visual studio 2015\Projects\FinalGame\FinalGame\obj\Debug\FinalGame.csprojResolveAssemblyReference.cache
+c:\users\william.montero\documents\visual studio 2015\Projects\FinalGame\FinalGame\obj\Debug\FinalGame.Form1.resources
+c:\users\william.montero\documents\visual studio 2015\Projects\FinalGame\FinalGame\obj\Debug\FinalGame.Properties.Resources.resources
+c:\users\william.montero\documents\visual studio 2015\Projects\FinalGame\FinalGame\obj\Debug\FinalGame.csproj.GenerateResource.Cache
+c:\users\william.montero\documents\visual studio 2015\Projects\FinalGame\FinalGame\obj\Debug\FinalGame.exe
+c:\users\william.montero\documents\visual studio 2015\Projects\FinalGame\FinalGame\obj\Debug\FinalGame.pdb
