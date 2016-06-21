@@ -29,7 +29,7 @@ namespace FinalGame
         public  Player() {
         }
 
-        public Player(string name, float health, float dmg, bool alive) {
+        public Player(string classification, string name, float health, float dmg, bool alive) {
             _name = name;
             _startingHP = health;
             _HP = _startingHP;
