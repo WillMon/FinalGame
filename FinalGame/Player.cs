@@ -17,7 +17,7 @@ namespace FinalGame
         
     }
     [Serializable]
-    class Player: ISpects
+    public class Player: ISpects
     {
         public string _name { get; set; }
         public float _startingHP { get; set; }

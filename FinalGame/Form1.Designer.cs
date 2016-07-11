@@ -41,7 +41,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.HgLt_01 = new System.Windows.Forms.PictureBox();
             this.HgLt_02 = new System.Windows.Forms.PictureBox();
-            this.HgLt_03 = new System.Windows.Forms.PictureBox();
             this.pic_02_Vill = new System.Windows.Forms.PictureBox();
             this.pic_03_Vill = new System.Windows.Forms.PictureBox();
             this.pic_01_Vill = new System.Windows.Forms.PictureBox();
@@ -52,9 +51,9 @@
             this.pic_01_Ran = new System.Windows.Forms.PictureBox();
             this.pic_02_Ran = new System.Windows.Forms.PictureBox();
             this.pic_03_Ran = new System.Windows.Forms.PictureBox();
+            this.HgLt_03 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.HgLt_01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HgLt_02)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HgLt_03)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_02_Vill)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_03_Vill)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_01_Vill)).BeginInit();
@@ -64,6 +63,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_01_Ran)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_02_Ran)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_03_Ran)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HgLt_03)).BeginInit();
             this.SuspendLayout();
             // 
             // butt_01
@@ -78,8 +78,11 @@
             // 
             // txt_o1
             // 
+            this.txt_o1.AutoWordSelection = true;
+            this.txt_o1.EnableAutoDragDrop = true;
             this.txt_o1.Location = new System.Drawing.Point(19, 299);
             this.txt_o1.Name = "txt_o1";
+            this.txt_o1.ReadOnly = true;
             this.txt_o1.Size = new System.Drawing.Size(401, 95);
             this.txt_o1.TabIndex = 2;
             this.txt_o1.Text = "";
@@ -135,29 +138,29 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(65, 236);
+            this.label1.Location = new System.Drawing.Point(85, 230);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 13);
+            this.label1.Size = new System.Drawing.Size(76, 13);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Character Select   ";
+            this.label1.Text = "Villain Select   ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(298, 236);
+            this.label2.Location = new System.Drawing.Point(316, 236);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 13);
+            this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Character Select   ";
+            this.label2.Text = "Hero Select   ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(536, 236);
+            this.label3.Location = new System.Drawing.Point(553, 236);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 13);
+            this.label3.Size = new System.Drawing.Size(63, 13);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Character Select   ";
+            this.label3.Text = "Op Select   ";
             // 
             // HgLt_01
             // 
@@ -176,18 +179,6 @@
             this.HgLt_02.Size = new System.Drawing.Size(212, 215);
             this.HgLt_02.TabIndex = 16;
             this.HgLt_02.TabStop = false;
-            // 
-            // HgLt_03
-            // 
-            this.HgLt_03.BackColor = System.Drawing.Color.Transparent;
-            this.HgLt_03.Location = new System.Drawing.Point(472, 12);
-            this.HgLt_03.Name = "HgLt_03";
-            this.HgLt_03.Size = new System.Drawing.Size(212, 215);
-            this.HgLt_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.HgLt_03.TabIndex = 17;
-            this.HgLt_03.TabStop = false;
-            this.HgLt_03.Visible = false;
-            this.HgLt_03.Click += new System.EventHandler(this.HgLt_03_Click);
             // 
             // pic_02_Vill
             // 
@@ -293,7 +284,7 @@
             // 
             this.pic_02_Ran.BackColor = System.Drawing.Color.Transparent;
             this.pic_02_Ran.Image = ((System.Drawing.Image)(resources.GetObject("pic_02_Ran.Image")));
-            this.pic_02_Ran.Location = new System.Drawing.Point(521, 104);
+            this.pic_02_Ran.Location = new System.Drawing.Point(503, 21);
             this.pic_02_Ran.Name = "pic_02_Ran";
             this.pic_02_Ran.Size = new System.Drawing.Size(153, 194);
             this.pic_02_Ran.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -306,7 +297,7 @@
             // 
             this.pic_03_Ran.BackColor = System.Drawing.Color.Transparent;
             this.pic_03_Ran.Image = ((System.Drawing.Image)(resources.GetObject("pic_03_Ran.Image")));
-            this.pic_03_Ran.Location = new System.Drawing.Point(491, 148);
+            this.pic_03_Ran.Location = new System.Drawing.Point(503, 21);
             this.pic_03_Ran.Name = "pic_03_Ran";
             this.pic_03_Ran.Size = new System.Drawing.Size(153, 194);
             this.pic_03_Ran.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -314,6 +305,16 @@
             this.pic_03_Ran.TabStop = false;
             this.pic_03_Ran.Visible = false;
             this.pic_03_Ran.Click += new System.EventHandler(this.pic_03_Ran_Click);
+            // 
+            // HgLt_03
+            // 
+            this.HgLt_03.BackColor = System.Drawing.Color.Transparent;
+            this.HgLt_03.Location = new System.Drawing.Point(472, 12);
+            this.HgLt_03.Name = "HgLt_03";
+            this.HgLt_03.Size = new System.Drawing.Size(212, 215);
+            this.HgLt_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.HgLt_03.TabIndex = 17;
+            this.HgLt_03.TabStop = false;
             // 
             // Start
             // 
@@ -347,7 +348,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.HgLt_01)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HgLt_02)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HgLt_03)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_02_Vill)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_03_Vill)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_01_Vill)).EndInit();
@@ -357,6 +357,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_01_Ran)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_02_Ran)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_03_Ran)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HgLt_03)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -375,7 +376,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox HgLt_01;
         private System.Windows.Forms.PictureBox HgLt_02;
-        private System.Windows.Forms.PictureBox HgLt_03;
         private System.Windows.Forms.PictureBox pic_02_Vill;
         private System.Windows.Forms.PictureBox pic_03_Vill;
         private System.Windows.Forms.PictureBox pic_01_Vill;
@@ -386,6 +386,7 @@
         private System.Windows.Forms.PictureBox pic_01_Ran;
         private System.Windows.Forms.PictureBox pic_02_Ran;
         private System.Windows.Forms.PictureBox pic_03_Ran;
+        private System.Windows.Forms.PictureBox HgLt_03;
     }
 }
 
