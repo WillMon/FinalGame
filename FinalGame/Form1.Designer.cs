@@ -68,7 +68,7 @@
             // 
             // butt_01
             // 
-            this.butt_01.Location = new System.Drawing.Point(42, 252);
+            this.butt_01.Location = new System.Drawing.Point(62, 255);
             this.butt_01.Name = "butt_01";
             this.butt_01.Size = new System.Drawing.Size(153, 31);
             this.butt_01.TabIndex = 1;
@@ -79,6 +79,8 @@
             // txt_o1
             // 
             this.txt_o1.AutoWordSelection = true;
+            this.txt_o1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_o1.DetectUrls = false;
             this.txt_o1.EnableAutoDragDrop = true;
             this.txt_o1.Location = new System.Drawing.Point(19, 299);
             this.txt_o1.Name = "txt_o1";
@@ -90,7 +92,7 @@
             // lab_01
             // 
             this.lab_01.AutoSize = true;
-            this.lab_01.Location = new System.Drawing.Point(436, 381);
+            this.lab_01.Location = new System.Drawing.Point(456, 384);
             this.lab_01.Name = "lab_01";
             this.lab_01.Size = new System.Drawing.Size(95, 13);
             this.lab_01.TabIndex = 4;
@@ -98,7 +100,7 @@
             // 
             // butt_02
             // 
-            this.butt_02.Location = new System.Drawing.Point(267, 252);
+            this.butt_02.Location = new System.Drawing.Point(287, 255);
             this.butt_02.Name = "butt_02";
             this.butt_02.Size = new System.Drawing.Size(153, 31);
             this.butt_02.TabIndex = 5;
@@ -108,7 +110,7 @@
             // 
             // butt_03
             // 
-            this.butt_03.Location = new System.Drawing.Point(503, 252);
+            this.butt_03.Location = new System.Drawing.Point(523, 255);
             this.butt_03.Name = "butt_03";
             this.butt_03.Size = new System.Drawing.Size(153, 31);
             this.butt_03.TabIndex = 6;
@@ -118,7 +120,7 @@
             // 
             // butt_04
             // 
-            this.butt_04.Location = new System.Drawing.Point(42, 400);
+            this.butt_04.Location = new System.Drawing.Point(62, 403);
             this.butt_04.Name = "butt_04";
             this.butt_04.Size = new System.Drawing.Size(153, 31);
             this.butt_04.TabIndex = 7;
@@ -127,7 +129,7 @@
             // 
             // butt_06
             // 
-            this.butt_06.Location = new System.Drawing.Point(503, 400);
+            this.butt_06.Location = new System.Drawing.Point(523, 403);
             this.butt_06.Name = "butt_06";
             this.butt_06.Size = new System.Drawing.Size(153, 31);
             this.butt_06.TabIndex = 8;
@@ -138,7 +140,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(85, 230);
+            this.label1.Location = new System.Drawing.Point(105, 233);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 13);
             this.label1.TabIndex = 9;
@@ -147,7 +149,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(316, 236);
+            this.label2.Location = new System.Drawing.Point(336, 239);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 12;
@@ -156,7 +158,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(553, 236);
+            this.label3.Location = new System.Drawing.Point(573, 239);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 13);
             this.label3.TabIndex = 14;
@@ -165,7 +167,7 @@
             // HgLt_01
             // 
             this.HgLt_01.BackColor = System.Drawing.Color.Transparent;
-            this.HgLt_01.Location = new System.Drawing.Point(12, 12);
+            this.HgLt_01.Location = new System.Drawing.Point(32, 15);
             this.HgLt_01.Name = "HgLt_01";
             this.HgLt_01.Size = new System.Drawing.Size(212, 215);
             this.HgLt_01.TabIndex = 15;
@@ -174,7 +176,7 @@
             // HgLt_02
             // 
             this.HgLt_02.BackColor = System.Drawing.Color.Transparent;
-            this.HgLt_02.Location = new System.Drawing.Point(240, 12);
+            this.HgLt_02.Location = new System.Drawing.Point(260, 15);
             this.HgLt_02.Name = "HgLt_02";
             this.HgLt_02.Size = new System.Drawing.Size(212, 215);
             this.HgLt_02.TabIndex = 16;
@@ -184,7 +186,7 @@
             // 
             this.pic_02_Vill.BackColor = System.Drawing.Color.Transparent;
             this.pic_02_Vill.Image = ((System.Drawing.Image)(resources.GetObject("pic_02_Vill.Image")));
-            this.pic_02_Vill.Location = new System.Drawing.Point(42, 21);
+            this.pic_02_Vill.Location = new System.Drawing.Point(62, 24);
             this.pic_02_Vill.Name = "pic_02_Vill";
             this.pic_02_Vill.Size = new System.Drawing.Size(153, 194);
             this.pic_02_Vill.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -197,7 +199,7 @@
             // 
             this.pic_03_Vill.BackColor = System.Drawing.Color.Transparent;
             this.pic_03_Vill.Image = ((System.Drawing.Image)(resources.GetObject("pic_03_Vill.Image")));
-            this.pic_03_Vill.Location = new System.Drawing.Point(42, 21);
+            this.pic_03_Vill.Location = new System.Drawing.Point(62, 24);
             this.pic_03_Vill.Name = "pic_03_Vill";
             this.pic_03_Vill.Size = new System.Drawing.Size(153, 194);
             this.pic_03_Vill.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -210,7 +212,7 @@
             // 
             this.pic_01_Vill.BackColor = System.Drawing.Color.Transparent;
             this.pic_01_Vill.Image = ((System.Drawing.Image)(resources.GetObject("pic_01_Vill.Image")));
-            this.pic_01_Vill.Location = new System.Drawing.Point(42, 21);
+            this.pic_01_Vill.Location = new System.Drawing.Point(62, 24);
             this.pic_01_Vill.Name = "pic_01_Vill";
             this.pic_01_Vill.Size = new System.Drawing.Size(153, 194);
             this.pic_01_Vill.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -221,18 +223,19 @@
             // 
             // butt_05
             // 
-            this.butt_05.Location = new System.Drawing.Point(267, 400);
+            this.butt_05.Location = new System.Drawing.Point(287, 403);
             this.butt_05.Name = "butt_05";
             this.butt_05.Size = new System.Drawing.Size(153, 31);
             this.butt_05.TabIndex = 21;
             this.butt_05.Text = "Instructions ";
             this.butt_05.UseVisualStyleBackColor = true;
+            this.butt_05.Click += new System.EventHandler(this.butt_05_Click);
             // 
             // pic_01_Hero
             // 
             this.pic_01_Hero.BackColor = System.Drawing.Color.Transparent;
             this.pic_01_Hero.Image = ((System.Drawing.Image)(resources.GetObject("pic_01_Hero.Image")));
-            this.pic_01_Hero.Location = new System.Drawing.Point(267, 21);
+            this.pic_01_Hero.Location = new System.Drawing.Point(287, 24);
             this.pic_01_Hero.Name = "pic_01_Hero";
             this.pic_01_Hero.Size = new System.Drawing.Size(153, 194);
             this.pic_01_Hero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -245,7 +248,7 @@
             // 
             this.pic_02_Hero.BackColor = System.Drawing.Color.Transparent;
             this.pic_02_Hero.Image = ((System.Drawing.Image)(resources.GetObject("pic_02_Hero.Image")));
-            this.pic_02_Hero.Location = new System.Drawing.Point(267, 21);
+            this.pic_02_Hero.Location = new System.Drawing.Point(287, 24);
             this.pic_02_Hero.Name = "pic_02_Hero";
             this.pic_02_Hero.Size = new System.Drawing.Size(153, 194);
             this.pic_02_Hero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -258,7 +261,7 @@
             // 
             this.pic_03_Hero.BackColor = System.Drawing.Color.Transparent;
             this.pic_03_Hero.Image = ((System.Drawing.Image)(resources.GetObject("pic_03_Hero.Image")));
-            this.pic_03_Hero.Location = new System.Drawing.Point(267, 21);
+            this.pic_03_Hero.Location = new System.Drawing.Point(287, 24);
             this.pic_03_Hero.Name = "pic_03_Hero";
             this.pic_03_Hero.Size = new System.Drawing.Size(153, 194);
             this.pic_03_Hero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -271,7 +274,7 @@
             // 
             this.pic_01_Ran.BackColor = System.Drawing.Color.Transparent;
             this.pic_01_Ran.Image = ((System.Drawing.Image)(resources.GetObject("pic_01_Ran.Image")));
-            this.pic_01_Ran.Location = new System.Drawing.Point(503, 21);
+            this.pic_01_Ran.Location = new System.Drawing.Point(523, 24);
             this.pic_01_Ran.Name = "pic_01_Ran";
             this.pic_01_Ran.Size = new System.Drawing.Size(153, 194);
             this.pic_01_Ran.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -284,7 +287,7 @@
             // 
             this.pic_02_Ran.BackColor = System.Drawing.Color.Transparent;
             this.pic_02_Ran.Image = ((System.Drawing.Image)(resources.GetObject("pic_02_Ran.Image")));
-            this.pic_02_Ran.Location = new System.Drawing.Point(503, 21);
+            this.pic_02_Ran.Location = new System.Drawing.Point(523, 24);
             this.pic_02_Ran.Name = "pic_02_Ran";
             this.pic_02_Ran.Size = new System.Drawing.Size(153, 194);
             this.pic_02_Ran.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -297,7 +300,7 @@
             // 
             this.pic_03_Ran.BackColor = System.Drawing.Color.Transparent;
             this.pic_03_Ran.Image = ((System.Drawing.Image)(resources.GetObject("pic_03_Ran.Image")));
-            this.pic_03_Ran.Location = new System.Drawing.Point(503, 21);
+            this.pic_03_Ran.Location = new System.Drawing.Point(523, 24);
             this.pic_03_Ran.Name = "pic_03_Ran";
             this.pic_03_Ran.Size = new System.Drawing.Size(153, 194);
             this.pic_03_Ran.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -309,7 +312,7 @@
             // HgLt_03
             // 
             this.HgLt_03.BackColor = System.Drawing.Color.Transparent;
-            this.HgLt_03.Location = new System.Drawing.Point(472, 12);
+            this.HgLt_03.Location = new System.Drawing.Point(492, 15);
             this.HgLt_03.Name = "HgLt_03";
             this.HgLt_03.Size = new System.Drawing.Size(212, 215);
             this.HgLt_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -345,6 +348,7 @@
             this.Controls.Add(this.txt_o1);
             this.Controls.Add(this.butt_01);
             this.Name = "Start";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.HgLt_01)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HgLt_02)).EndInit();

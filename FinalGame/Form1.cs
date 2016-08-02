@@ -42,9 +42,7 @@ namespace FinalGame
         private void Form1_Load(object sender, EventArgs e)
         {
             m_gameState.ChangeState(States.Start);
-
             txt_o1.Text = ""; // ~ Change to reprasent both the char spect that or instructiond at press
-
         }
 
 
@@ -162,7 +160,8 @@ namespace FinalGame
             HgLt_01.BackColor = Color.MediumSlateBlue;
         }
 
-        // Responses to clicking on the Hero Picture 
+
+        // Responses to clicking on the Op Picture 
         private void butt_03_Click(object sender, EventArgs e)
         {
 
@@ -189,6 +188,7 @@ namespace FinalGame
                         break;  }
                 default: break;
             }
+             
             if (countSlid03 == 3) countSlid03 = 0;
             StateUpdate();
 
@@ -216,7 +216,12 @@ namespace FinalGame
             HgLt_03.BackColor = Color.LightGreen;
         }
 
-        
+
+        // Displays games Instruction for the player to read
+        private void butt_05_Click(object sender, EventArgs e)
+        {
+            Instructions();
+        }
 
         private void butt_06_Click(object sender, EventArgs e)
         {
@@ -225,6 +230,12 @@ namespace FinalGame
             PlayerChooseList.Add(Hero);
             PlayerChooseList.Add(Ran);
             StateUpdate();            
+        }
+        void Instructions()
+        {
+            txt_o1.Text = "Wellcome to the Final Game \n Main Menu Instructions: \n  To Progress to the battle portion of the game you most first set up your lobby. \n "
+                + "To Set your lobby you most pick from a assorted chraters that have been set for you to choose from. \n To you can only choose from the selected charaters and you most choose \n"
+                +"Click on the charater when you have decided, when ready and you have 3 colors light up press continue";
         }
 
         void StateUpdate() {
